@@ -18,7 +18,7 @@
     {
         $_SESSION['username']=$username;
         $_SESSION['status']='login';
-        header("location:admin/index.html");
+        header("location:admin/add.html");
     }
     else
     {
